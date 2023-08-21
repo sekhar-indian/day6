@@ -1,2 +1,2 @@
 console.log("welcome to sekhar")
-console.log("well god")
+console.log("w god")
