@@ -1,28 +1,31 @@
-/*let h=document.querySelector("#main-header");
-h.style.borderBottom='solid 4px red'
+// // //parentNode
+// let itm=document.querySelector("#items")
+// console.log(itm.parentNode);
+// itm.parentNode.style.backgroundColor="red"
 
-let d=document.querySelector("input");
-d.value="sekhar"
+// console.log(itm.parentNode.parentNode.parentNode)
 
-let sub=document.querySelector('input[type="submit"]');
-sub.value="nono";
+//parent Elementlet 
+// let itm=document.querySelector("#items")
+// console.log(itm.parentElement)
 
-let item=document.querySelector(".list-group-item");
-item.style.color="red";
 
-let litem=document.querySelector(".list-group-item:last-child")
-litem.style.color="red"  
+//childNode 
+//let itm=document.querySelector("#items")
+// console.log("itm.childNode)
 
-let pitem=document.querySelector(".list-group-item:nth-child(2)");
-pitem.style.color="red";   */
+//itm[1].children.style.backgroundColor = "red";
 
-let a=document.querySelectorAll('.title');
-console.log(a);
-a[0].textContent="helo";
+//creat div
+let div=document.createElement("div");
+//console.log(div);
 
-let odd=document.querySelectorAll('li:nth-child(odd)') 
-let evn=document.querySelectorAll('li:nth-child(even)')
-for(let i=0;i<odd.length;i++)
-{
-    odd[i].style.color="red"
-}
+//create class
+div.className="divclass";
+
+//add id 
+div.id="divid";
+
+
+ console.log(div);
+
